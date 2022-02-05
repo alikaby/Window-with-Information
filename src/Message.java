@@ -13,7 +13,7 @@ public class Message {
         String text = "Тестировщица: "+ name;
         text = text +"\n"+"Возраст: "+ age + " лет";
         text = text + '\n'+ "Опыт работы: " + experience;
-        text = text + '\n'+ "Стэк технологий: " + stack;
+        text = text + '\n'+ "Стек технологий: " + stack;
 
         JOptionPane.showMessageDialog(null,text);
 
